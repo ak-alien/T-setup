@@ -27,10 +27,7 @@ An automated setup script for Termux to quickly install essential and advanced p
 ## 📥 Installation & Usage
 
 ```bash
-pkg update && pkg upgrade -y
-pkg install git -y
-git clone https://github.com/ak-alien/termux-setup-script
-cd termux-setup-script
+curl -LO https://raw.githubusercontent.com/ak-alien/T-setup/refs/heads/main/T-setup.sh
 chmod +x setup.sh
 ./setup.sh
 ```
