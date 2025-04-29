@@ -28,8 +28,8 @@ An automated setup script for Termux to quickly install essential and advanced p
 
 ```bash
 curl -LO https://raw.githubusercontent.com/ak-alien/T-setup/refs/heads/main/T-setup.sh
-chmod +x setup.sh
-./setup.sh
+chmod +x T-setup.sh
+./T-setup.sh
 ```
 
 ---
